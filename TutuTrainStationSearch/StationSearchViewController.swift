@@ -12,6 +12,8 @@ let themeBackgroundColor = UIColor (red: 0.97, green: 0.97, blue: 0.97, alpha: 1
 
 class StationSearchViewController: UIViewController {
 
+	let esimatedRowHelght: CGFloat = 72.0
+	
 	@IBOutlet var mainView: UIView!
 	@IBOutlet weak var tableView: UITableView!
 	
@@ -54,6 +56,8 @@ class StationSearchViewController: UIViewController {
 		
 		tableView.delegate = self
 		tableView.dataSource = self
+		tableView.estimatedRowHeight = esimatedRowHelght
+		tableView.rowHeight = UITableViewAutomaticDimension
 		viewModel.delegate = self
 		
 		viewModel.startLoadingData ()
