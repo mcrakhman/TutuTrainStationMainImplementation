@@ -1,6 +1,6 @@
 # TutuTrainStationMainImplementation
 
-![Alt Text](https://github.com/mcrakhman/FilesRepository/blob/master/tutu720-dynamicheight.gif)
+![Alt Text](https://github.com/mcrakhman/FilesRepository/blob/master/tutu720-dynamicheight-2.gif)
 
 Уважаемые коллеги из компании Tutu!
 
